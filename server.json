@@ -1,0 +1,13 @@
+{
+    "serve": {
+      "port": 5555,
+      "proxy": [
+        {
+          "context": ["/api"],
+          "target": "http://localhost:8000",
+          "secure": false
+        }
+      ]
+    }
+  }
+  
