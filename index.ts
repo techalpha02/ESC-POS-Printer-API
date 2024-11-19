@@ -36,7 +36,7 @@ export class mypcf01 implements ComponentFramework.StandardControl<IInputs, IOut
     // Function to make an API request
     async fetchData() {
         try {
-            const response = await axios.get('http://localhost:3000/api/data', {
+            const response = await axios.get('http://localhost:3000/api', {
                 headers: {
                 'Content-Type': 'application/json'
                 }
